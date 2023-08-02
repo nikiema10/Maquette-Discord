@@ -10,27 +10,18 @@ body{
     background-color: #0f0e17;
     text-align: center; 
     font-family: 'Poppins', sans-serif;
-    
-       
-    
   }
-  /* header .container{
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto  
-  }  */
+   header .container{
+  
+  }  
   .container img{
     max-width: 100px;
-    /* position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto */
+   
   }
   
   nav{
      
-    /* text-decoration: underline;   */
+   
     
   }
   
@@ -55,9 +46,10 @@ body{
     
    max-width: 790px;
    background-color: #fffffe;
-   position: relative;
-   padding: auto;
-   margin: auto;
+   padding: 10px;
+   margin: 15px auto;
+   border-radius: 5px;
+  
 
   }
   
@@ -73,8 +65,14 @@ body{
   }
   
   footer{
+  
     background-color: #e53170;
     text-transform: uppercase;
+    font-size: 20px;
     color: white;
     margin-top: 200px;
+    position: fixed; 
+    left: 0;
+    right: 0;
+    bottom: 0;
   }
